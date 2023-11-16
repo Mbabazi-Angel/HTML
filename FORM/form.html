@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Angel"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Mbabazi"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        <!--using the radio element for options(can choose one option)-->
+        <input type="radio" id="Female" name="choice" value="A">
+        <label for="Female">Female</label>
+        <input type="radio" id="Male" name="choice" value="B">
+        <label for="Male">Male</label>
+        <input type="radio" id="Rather not say" name="choice" value="C">
+        <label for="Rather not say">Rather not say</label><br><br>
+        <text>Are you interested in our services?</text><br><br>
+        <input type="radio" id="Yes" name="choice" value="A">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="choice" value="B">
+        <label for="No">No</label><br><br>
+        <!--using the checkbox(can choose many options)-->
+        <input type="checkbox" id="terms and conditions" name="choice" value="terms and condition">
+        <label for="terms and conditions">Agree to the terms and conditons of this website</label><br><br>
+        <!--using the select element(brings a dropdown list where you choose one)-->
+        <label for="country">COUNTRY OF RESIDENCE</label>
+        <select id="country" name="contry">
+        <option value="Uganda">UGANDA</option>
+        <option value="Kenya">KENYA</option>
+        <option value="Tanzania">TANZANIA</option>
+        <option value="Rwanda">RWANDA</option>
+        </select><br><br>
+        <!--using text area element-->
+        <text>What can we do for you?</text><br><br>
+        <textarea name="message" rows="10" cols="30"></textarea><br><br>
+        <!--using the button element-->
+        <button type="button" onclick="alert('Thanks for visiting this website')">Click Me!</button>    
+    </form>
+</body>
+</html>
